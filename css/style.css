@@ -14,7 +14,62 @@ body {
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
-	padding: 0 45px 20px;
+	padding: 0px 45px 20px;
+	position: relative;
 }
 
 /* Write all remaining styles here */
+
+h1 {
+	position: relative;
+	margin: 0 0 16px;
+	font-size: 5em;
+	font-family: "Baskerville", "Times New Roman", serif
+}
+
+header a {
+	color: rgb(152,173,166);
+	text-decoration: none;
+}
+
+header a:hover {
+	color: rgb(111,127,122);
+}
+
+h1:hover {
+	color: rgb(111, 127, 122);
+}
+
+img#necklace{
+	border: 5px solid rgb(152,173,166);
+}
+
+.mini-head {
+	font-size: 2em;
+	color: rgb(130, 147, 141)
+}
+
+#learn-more {
+	text-decoration: none;
+	color: 
+}
+
+#featured {
+	margin-bottom: 20px;
+}
+
+img.logo {
+	border: 5px solid #dbdbdb;
+}
+
+img.logo:hover {
+	border: 5px solid rgb(152,173,166);
+}
+
+footer {
+	font-size: 0.8em;
+	text-align: right;
+	color: gray;
+	padding-right: 6px;
+	clear: both; 
+}
